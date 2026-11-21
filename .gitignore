@@ -19,6 +19,9 @@ www/libs/
 Thumbs.db
 *.log
 
+# NPM (gerado - opcional, manter package.json se desejar)
+package-lock.json
+
 # IDE
 .vscode/
 .idea/
