@@ -1,0 +1,26 @@
+# Dependencias
+node_modules/
+
+# Capacitor / Android nativo (gerado - nao commitar)
+android/
+ios/
+
+# Capacitor config gerado pelo sync
+capacitor.config.json
+
+# Build outputs
+*.apk
+*.aab
+build/
+www/libs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
