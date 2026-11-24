@@ -86,7 +86,7 @@ const UI = {
             if (isUrgent) urgentTitles.push(task.title);
 
             const row = document.createElement('div');
-            row.className = 'task-row';
+            row.className = `task-row ${level.tagClass}`;
 
             const mainDiv = document.createElement('div');
             mainDiv.className = 'task-main';

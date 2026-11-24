@@ -213,6 +213,15 @@ select:focus, input[type="datetime-local"]:focus {
     border-bottom: 1px solid var(--border-light);
     gap: 16px;
     transition: background-color 0.1s ease;
+    border-left: 3px solid transparent;
+}
+
+.task-row.tag-alta {
+    border-left-color: var(--accent-high);
+}
+
+.task-row.tag-critica {
+    border-left-color: var(--accent-critical);
 }
 
 .task-row:hover {
